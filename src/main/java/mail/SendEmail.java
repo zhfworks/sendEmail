@@ -23,7 +23,7 @@ public class SendEmail {
 		Authenticator auth = new Authenticator() {
 			public PasswordAuthentication getPasswordAuthentication() {
 //				密码验证 fromUser  授权码
-				return new PasswordAuthentication("17602117025", "haifeng1992");
+				return new PasswordAuthentication("17602117025", "****");
 			}
 		};
 		//使用JavaMail发送邮件的5个步骤
